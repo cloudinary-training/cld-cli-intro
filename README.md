@@ -403,6 +403,30 @@ You'll see this URL:
 [res.cloudinary.com/demo/image/upload/w_200,h_200,c_thumb,g_face,**r_max**/face_left.png](https://res.cloudinary.com/demo/image/upload/w_200,h_200,c_thumb,g_face,r_max/face_left.png
 )
 
+### Borders
+
+Use `bo_<size in pixels>_<style>_<color>` to create borders similar to the CSS `border` command.
+
+```bash
+cld url sample.jpg bo_5px_solid_red
+```
+
+You'll see this URL:
+[res.cloudinary.com/demo/image/upload/**bo_5px_solid_red**/sample.jpg](https://res.cloudinary.com/demo/image/upload/bo_5px_solid_red/sample.jpg)
+
+### Background Color
+
+Use `b_<option>` to add a background color.  Options include `auto` which chooses the image predominant color, or `auto:border_contrast`, or `auto:predominant_contrast`. 
+
+```bash
+cld url tulips.jpg h_300,w_300,c_pad,b_auto
+```
+
+You'll see this URL:
+
+[res.cloudinary.com/demo/image/upload/h_300,w_300,c_pad,**b_auto**/sample.jpg](https://res.cloudinary.com/demo/image/upload/h_300,w_300,c_pad,b_auto/sample.jpg)
+
+
 
 ## Presets
 

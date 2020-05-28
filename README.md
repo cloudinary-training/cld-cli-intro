@@ -129,9 +129,9 @@ cld upload data.json
 
 Resource type can be found in the URL after the cloud name.
 
-res.cloudinary.com/demo/**image**/upload/sample.jpg
+[res.cloudinary.com/demo/**image**/upload/sample.jpg](https://res.cloudinary.com/demo/image/upload/sample.jpg)
 
-res.cloudinary.com/demo/**video**/upload/dog.mp4
+[res.cloudinary.com/demo/**video**/upload/dog.mp4](https://res.cloudinary.com/demo/video/upload/dog.mp4)
 
 ### Set Public ID during Upload
 
@@ -203,7 +203,7 @@ cld upload ftp://user1:mypass@ftp.example.com/sample.jpg
 
 Fetch is a "delivery" **type**.  Other deliver types include **upload**, **private** and **authenticated**.  You find these after the resource type in the URL.  
 
-res.cloudinary.com/demo/image/**upload**/sample.jpg
+[res.cloudinary.com/demo/image/**upload**/sample.jpg](https://res.cloudinary.com/demo/image/upload/sample.jpg]
 
 With Fetch you specify the full URL of the remote image and that URL can be found in the Cloudinary URL.  Fetch is only for images.
 
@@ -215,6 +215,7 @@ The `cld url` command creates a URL string.  The string created by the command a
 
 res.cloudinary.com/<cloud name>/image/**fetch**/http://upload.wikimedia.org/wikipedia/commons/b/b1/Carnegiea_gigantea_%283%29.jpg
 
+You may need to change your settings because **Fetched URL** is disabled by default.
 
 #### Auto-Upload
 
@@ -364,7 +365,7 @@ cld url dog.mp4 w_300,h_200,c_crop -rt video
 ```
 
 You'll see this URL:
-res.cloudinary.com/demo/**video**/upload/**w_300,h_200,c_crop**/dog.mp4
+[res.cl]oudinary.com/demo/**video**/upload/**w_300,h_200,c_crop**/dog.mp4](res.cl]oudinary.com/demo/video/upload/w_300,h_200,c_crop/dog.mp4)
 
 ### Format
 
@@ -375,7 +376,7 @@ cld url toshi.jpg fetch_format=auto
 ```
 
 You'll see this URL:
-res.cloudinary.com/demo/image/upload/**f_auto**/toshi.jpg
+[res.cloudinary.com/demo/image/upload/**f_auto**/toshi.jpg](http://res.cloudinary.com/demo/image/upload/f_auto/toshi.jpg)
 
 ### Quality
 
@@ -388,9 +389,20 @@ You'll see this URL:
 res.cloudinary.com/demo/image/upload/**q_auto**/robot.jpg
 
 
-
-
 ## Transformations: Aesthetics
+
+### Rounding
+
+Use `r_<value>` to create rounding similar to the CSS `border-radius`.  A value of `max` will create a circle.
+
+```bash
+cld url face_left.png w_200,h_200,g_face,r_max,c_thumb
+```
+You'll see this URL:
+
+[res.cloudinary.com/demo/image/upload/w_200,h_200,c_thumb,g_face,**r_max**/face_left.png](https://res.cloudinary.com/demo/image/upload/w_200,h_200,c_thumb,g_face,r_max/face_left.png
+)
+
 
 ## Presets
 

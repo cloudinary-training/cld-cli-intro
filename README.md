@@ -419,12 +419,87 @@ You'll see this URL:
 Use `b_<option>` to add a background color.  Options include `auto` which chooses the image predominant color, or `auto:border_contrast`, or `auto:predominant_contrast`. 
 
 ```bash
-cld url tulips.jpg h_300,w_300,c_pad,b_auto
+cld url sample.jpg h_300,w_300,c_pad,b_auto
 ```
 
 You'll see this URL:
 
 [res.cloudinary.com/demo/image/upload/h_300,w_300,c_pad,**b_auto**/sample.jpg](https://res.cloudinary.com/demo/image/upload/h_300,w_300,c_pad,b_auto/sample.jpg)
+
+### Effects and Filters
+
+
+The `e_` is a shorthand for effect.  You can see the [documentation](https://cloudinary.com/documentation/image_transformations#applying_image_effects_and_filters) on effects and filters to see all the options.  The `f_` is a shorthand for filters.
+
+### Outline Effect 
+
+In the transformation below the balloon has an orange outline.
+
+```bash
+cld url -o -t upload -o balloon.png h_200/e_outline,co_orange/
+```
+You'll see this URL. Notice that the outline has a width and blur.  The values are defaulted in but you can add your own. The width is 15px and the blur is 200.
+
+[res.cloudinary.com/demo/image/upload/h_200,c_scale/**e_outline:15:200,co_orange**/balloon.png](https://res.cloudinary.com/demo/image/upload/h_200,c_scale/e_outline:15:200,co_orange/balloon.png)
+
+### Improve Effect
+
+The improve effect is one of many that apply visual enhancedments: `improve`, `gamma`,`auto_brightness`, `auto_contrast`, `auto_color`, `fill_light`, `vibrance`, `contrast`, `viesus_correct`.
+
+```bash
+cld url -o sample.jpg e_improve:outdoor
+```
+
+You'll see this URL
+
+[res.cloudinary.com/demo/image/upload/**e_improve:outdoor**/sample.jpg
+](https://res.cloudinary.com/demo/image/upload/e_improve:outdoor/sample.jpg)
+
+### Art Filters
+Try out some of the art filters: `al_dente`, `athena`, `artistic`, `audrey`, `artistic` `filteraudrey`, `daguerre` and mor
+
+```bash
+cld url -o horses.jpg e_art:quartz
+```
+You'll see a URL like this
+
+[res.cloudinary.com/demo/image/upload/**e_art:quartz**/horses.jpg](https://res.cloudinary.com/demo/image/upload/e_art:quartz/horses.jpg)
+
+### Overlay
+
+You render an image, video, or text on top of another asset. These have many uses including watermarking.
+
+#### Image over Image
+
+This positions the icon on top of the other image using a compass position of `north_east` which is the upper right. 
+
+```bash
+cld url \
+sample.jpg \
+l_cloudinary_icon,g_north_east
+```
+
+You'll see a URL like this
+
+[res.cloudinary.com/demo/image/upload/l_cloudinary_icon,**g_north_east**/sample.jpg
+](https://res.cloudinary.com/demo/image/upload/l_cloudinary_icon,g_north_east/sample.jpg
+)
+
+#### Text over Image
+When specifying text you need to use it like this `font_family_<size in pixels>_<style>:<text>`.  This example using `x`, `y` positioning relative to the center of gravity, which in this case is the `north_east`. The text is therefore offset down and left 15 pixels from the upper right.  If gravity is not included the default is the center of the asset.  The color can be specified as a hex value like this example or with a color name.
+
+```bash
+cld url \
+-t upload \
+-o \
+sample.jpg \
+c_scale,w_500/co_rgb:ffff00,g_north_east,l_text:Times_90_bold:Bees!,x_15,y_15 
+```
+
+You'll see a URL like this  
+
+[res.cloudinary.com/demo/image/upload/c_scale,w_500/**co_rgb:ffff00,g_north_east,l_text:Times_90_bold: Bees!,x_15,y_15**/sample.jpg](https://res.cloudinary.com/demo/image/upload/c_scale,w_500/co_rgb:ffff00,g_north_east,l_text:Times_90_bold:%20Bees!,x_15,y_15/sample.jpg)
+
 
 
 

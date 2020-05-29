@@ -1,5 +1,7 @@
 # Cheatsheet: Introducton to Cloudinary CLI
 
+---
+
 ## Setup Environment
 
 ### Install Python
@@ -85,6 +87,9 @@ Setup by name (example)
 cld config --from_url cloudinary://API_KEY:API_SECRET@cloud_name
 cld -C cloud_name config
 ```
+
+---
+
 ## Help
 
 You can get usage help on any command
@@ -92,6 +97,7 @@ You can get usage help on any command
 ```bash
 cld <command> --help
 ```
+---
 
 ## URL Helper
 
@@ -272,6 +278,7 @@ cld sync --push ~/Pictures/images test-images
 cld sync --pull ~/Pictures/myimages test-images
 ```
 
+---
 
 ## Managing Uploded Content
 
@@ -364,6 +371,7 @@ Use the `invalidate` option.
 cld destroy sample invalidate=true
 ```
 
+---
 
 ## Transformations: Optimziation
 
@@ -405,8 +413,9 @@ cld url robot.jpg quality=auto
 You'll see this URL:
 res.cloudinary.com/demo/image/upload/**q_auto**/robot.jpg
 
+---
 
-## Transformations: Aesthetics
+## Transformation: Aesthetics
 
 ### Rounding
 
@@ -517,6 +526,7 @@ You'll see a URL like this
 
 [res.cloudinary.com/demo/image/upload/c_scale,w_500/**co_rgb:ffff00,g_north_east,l_text:Times_90_bold: Bees!,x_15,y_15**/sample.jpg](https://res.cloudinary.com/demo/image/upload/c_scale,w_500/co_rgb:ffff00,g_north_east,l_text:Times_90_bold:%20Bees!,x_15,y_15/sample.jpg)
 
+---
 
 ## Presets
 
@@ -536,6 +546,8 @@ cld admin create_upload_preset name=mobile_profile_photo width=640 height=640 cr
 cld upload santa.jpg upload_preset=mobile_profile_photo
 ```
 
+---
+
 ## Named Transformations
 
 ### Create a named transformation
@@ -554,6 +566,8 @@ cld url sample t_small_fill2
 
 [https://res.cloudinary.com/picturecloud7/image/upload/t_small_fill2/sample](https://res.cloudinary.com/picturecloud7/image/upload/t_small_fill2/sample)
 
+---
+
 ## Backups
 
 [Enable and Configure backups](https://cloudinary.com/documentation/backups_and_version_management#enabling_automatic_backup) in the DAM. 
@@ -563,6 +577,8 @@ You can use the CLI ensure a specific asset is backed up.
 ```bash
 cld upload sample.jpg backup=true
 ```
+
+---
 
 ## Resources
 

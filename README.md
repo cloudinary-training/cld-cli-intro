@@ -93,6 +93,23 @@ You can get usage help on any command
 cld <command> --help
 ```
 
+## URL Helper
+
+We'll be using the URL helper to create URLs.  URLs requests are handled by Cloudinary and cached on the CDN and then a response is returned.
+
+We can create a URL string 
+
+Usage
+```bash
+cld url [OPTIONS] PUBLIC_ID [TRANSFORMATION]
+```
+
+If you want to make a request using the URL, add the `--open` option
+
+```bash
+cld url --open [OTIONS] PUBLIC_ID [TRANSFORMATION]
+```
+
 ## Uploading
 
 The CLI will automatically detect your image type but you can specify it.
@@ -501,11 +518,65 @@ You'll see a URL like this
 [res.cloudinary.com/demo/image/upload/c_scale,w_500/**co_rgb:ffff00,g_north_east,l_text:Times_90_bold: Bees!,x_15,y_15**/sample.jpg](https://res.cloudinary.com/demo/image/upload/c_scale,w_500/co_rgb:ffff00,g_north_east,l_text:Times_90_bold:%20Bees!,x_15,y_15/sample.jpg)
 
 
-
-
 ## Presets
 
+Preset are a named set of instructions to be carried out when an asset is uploaded.  It's often used to apply similar crop instructions to any asset that uses it.
+
+### Create a preset
+
+The preset below is named **mobile_profile_photo** and instructs that the asset be cropped using a 640x640 limit crop. It also assigns a tag with the value **mobile_upload** to the asset.
+
+```bash
+cld admin create_upload_preset name=mobile_profile_photo width=640 height=640 crop=limit tags=mobile_upload
+```
+
+### Use a preset during upload
+
+```bash
+cld upload santa.jpg upload_preset=mobile_profile_photo
+```
+
+## Named Transformations
+
+### Create a named transformation
+
+Any transformation string can be stored by name.  This can make cleaner URLs and be used for templates. The transformation is named **small_fill2** in the example below.  The `gravite=face` option will attempt center the image on face. 
+
+```bash
+cld admin create_transformation small_fill2 width=150 height=100 crop=fill gravity=face
+```
+
+### Use a named transformation
+
+```bash
+cld url sample t_small_fill2
+```
+
+[https://res.cloudinary.com/picturecloud7/image/upload/t_small_fill2/sample](https://res.cloudinary.com/picturecloud7/image/upload/t_small_fill2/sample)
+
 ## Backups
+
+[Enable and Configure backups](https://cloudinary.com/documentation/backups_and_version_management#enabling_automatic_backup) in the DAM. 
+
+You can use the CLI ensure a specific asset is backed up.
+
+```bash
+cld upload sample.jpg backup=true
+```
+
+## Resources
+
+[Cloudinary Documentation](https://cloudinary.com/documentation) 
+
+[Facebook](https://www.facebook.com/groups/CloudinaryCommunity/) 
+
+[GitHub Respositoruy](https://github.com/cloudinary)
+
+[Status Page](https://status.cloudinary.com/) 
+
+[Support Request](https://support.cloudinary.com/hc/en-us/requests/new)
+
+[Support Email support@cloudinary.com](mailto:support@cloudinary.com)
 
 
 

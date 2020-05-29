@@ -1,8 +1,11 @@
-# Cheatsheet: Introducton to Cloudinary CLI
+# Cheatsheet: Introduction to Cloudinary CLI
+
+This cheatsheet is meant for students involved with the “Introduction to Cloudinary’s CLI” course. If you are not already a student, you can enroll at [training.cloudinary.com](https://training.cloudinayr.com). Each part of the cheatsheet corresponds with the [slides](https://cloudinary-res.cloudinary.com/image/upload/v1590770686/training/Introduction_to_Cloudinary_s_CLI_-_Course_Slides.pdf) used in the course. 
 
 ---
 
 ## Setup Environment
+[Slide 9]((https://cloudinary-res.cloudinary.com/image/upload/v1590770686/training/Introduction_to_Cloudinary_s_CLI_-_Course_Slides.pdf))
 
 ### Install Python
 
@@ -18,7 +21,7 @@
 pip3 install cloudinary-cli
 ```
 
-**Update:**
+**Update Cloudinary Package:**
 
 ```bash
  pip3 install cloudinary-cli --upgrade
@@ -26,7 +29,7 @@ pip3 install cloudinary-cli
 
 ### Cloudinary Credentials
 
-### Setup Environemnt Variables
+### Setup Environment Variables
 
 Navigate to:  [https://cloudinary.com/console](https://cloudinary.com/console)
 
@@ -117,6 +120,7 @@ cld url --open [OTIONS] PUBLIC_ID [TRANSFORMATION]
 ```
 
 ## Uploading
+[Slide 15]((https://cloudinary-res.cloudinary.com/image/upload/v1590770686/training/Introduction_to_Cloudinary_s_CLI_-_Course_Slides.pdf))
 
 The CLI will automatically detect your image type but you can specify it.
 
@@ -280,7 +284,8 @@ cld sync --pull ~/Pictures/myimages test-images
 
 ---
 
-## Managing Uploded Content
+## Managing Uploaded Content
+[Slide 27]((https://cloudinary-res.cloudinary.com/image/upload/v1590770686/training/Introduction_to_Cloudinary_s_CLI_-_Course_Slides.pdf))
 
 Admin functions
 
@@ -373,7 +378,8 @@ cld destroy sample invalidate=true
 
 ---
 
-## Transformations: Optimziation
+## Transformations: Optimization
+[Slide 34]((https://cloudinary-res.cloudinary.com/image/upload/v1590770686/training/Introduction_to_Cloudinary_s_CLI_-_Course_Slides.pdf))
 
  Transformations can be provided as comma separated lists of options as they appear in the URL or as key/value assignments.
 
@@ -390,11 +396,11 @@ cld url dog.mp4 w_300,h_200,c_crop -rt video
 ```
 
 You'll see this URL:
-[res.cl]oudinary.com/demo/**video**/upload/**w_300,h_200,c_crop**/dog.mp4](res.cl]oudinary.com/demo/video/upload/w_300,h_200,c_crop/dog.mp4)
+[res.cloudinary.com/demo/**video**/upload/**w_300,h_200,c_crop**/dog.mp4](res.cl]oudinary.com/demo/video/upload/w_300,h_200,c_crop/dog.mp4)
 
 ### Format
 
-This example provides the transformation as a key/value assignment.
+This example provides the transformation as a key/value assignment.  The `f_` is a shorthand for format.
 
 ```bash
 cld url toshi.jpg fetch_format=auto
@@ -405,7 +411,7 @@ You'll see this URL:
 
 ### Quality
 
-This example proivdes the transformation as a key/value assignment
+This example provides the transformation as a key/value assignment
 
 ```bash
 cld url robot.jpg quality=auto
@@ -416,6 +422,7 @@ res.cloudinary.com/demo/image/upload/**q_auto**/robot.jpg
 ---
 
 ## Transformation: Aesthetics
+[Slide 40]((https://cloudinary-res.cloudinary.com/image/upload/v1590770686/training/Introduction_to_Cloudinary_s_CLI_-_Course_Slides.pdf))
 
 ### Rounding
 
@@ -455,7 +462,7 @@ You'll see this URL:
 ### Effects and Filters
 
 
-The `e_` is a shorthand for effect.  You can see the [documentation](https://cloudinary.com/documentation/image_transformations#applying_image_effects_and_filters) on effects and filters to see all the options.  The `f_` is a shorthand for filters.
+The `e_` is a shorthand for effect.  You can see the [documentation](https://cloudinary.com/documentation/image_transformations#applying_image_effects_and_filters) on effects and filters to see all the options. 
 
 ### Outline Effect 
 
@@ -470,7 +477,7 @@ You'll see this URL. Notice that the outline has a width and blur.  The values a
 
 ### Improve Effect
 
-The improve effect is one of many that apply visual enhancedments: `improve`, `gamma`,`auto_brightness`, `auto_contrast`, `auto_color`, `fill_light`, `vibrance`, `contrast`, `viesus_correct`.
+The improve effect is one of many that apply visual enhancements: `improve`, `gamma`,`auto_brightness`, `auto_contrast`, `auto_color`, `fill_light`, `vibrance`, `contrast`, `viesus_correct`.
 
 ```bash
 cld url -o sample.jpg e_improve:outdoor
@@ -482,7 +489,7 @@ You'll see this URL
 ](https://res.cloudinary.com/demo/image/upload/e_improve:outdoor/sample.jpg)
 
 ### Art Filters
-Try out some of the art filters: `al_dente`, `athena`, `artistic`, `audrey`, `artistic` `filteraudrey`, `daguerre` and mor
+Try out some of the art filters: `al_dente`, `athena`, `artistic`, `audrey`, `artistic` `filteraudrey`, `daguerre` and more.
 
 ```bash
 cld url -o horses.jpg e_art:quartz
@@ -529,6 +536,7 @@ You'll see a URL like this
 ---
 
 ## Presets
+[Slide 49]((https://cloudinary-res.cloudinary.com/image/upload/v1590770686/training/Introduction_to_Cloudinary_s_CLI_-_Course_Slides.pdf))
 
 Preset are a named set of instructions to be carried out when an asset is uploaded.  It's often used to apply similar crop instructions to any asset that uses it.
 
@@ -549,6 +557,7 @@ cld upload santa.jpg upload_preset=mobile_profile_photo
 ---
 
 ## Named Transformations
+[Slide 52]((https://cloudinary-res.cloudinary.com/image/upload/v1590770686/training/Introduction_to_Cloudinary_s_CLI_-_Course_Slides.pdf))
 
 ### Create a named transformation
 
@@ -569,6 +578,7 @@ cld url sample t_small_fill2
 ---
 
 ## Backups
+[Slide 53]((https://cloudinary-res.cloudinary.com/image/upload/v1590770686/training/Introduction_to_Cloudinary_s_CLI_-_Course_Slides.pdf))
 
 [Enable and Configure backups](https://cloudinary.com/documentation/backups_and_version_management#enabling_automatic_backup) in the DAM. 
 
@@ -581,12 +591,13 @@ cld upload sample.jpg backup=true
 ---
 
 ## Resources
+[Slide 63]((https://cloudinary-res.cloudinary.com/image/upload/v1590770686/training/Introduction_to_Cloudinary_s_CLI_-_Course_Slides.pdf))
 
 [Cloudinary Documentation](https://cloudinary.com/documentation) 
 
-[Facebook](https://www.facebook.com/groups/CloudinaryCommunity/) 
+[FaceBook](https://www.facebook.com/groups/CloudinaryCommunity/) 
 
-[GitHub Respositoruy](https://github.com/cloudinary)
+[GitHub Respository](https://github.com/cloudinary)
 
 [Status Page](https://status.cloudinary.com/) 
 

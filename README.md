@@ -5,7 +5,7 @@ This cheatsheet is meant for students involved with the “Introduction to Cloud
 ---
 
 ## Setup Environment
-[Slide 9]((https://cloudinary-res.cloudinary.com/image/upload/v1590770686/training/Introduction_to_Cloudinary_s_CLI_-_Course_Slides.pdf))
+[Slide 9](https://cloudinary-res.cloudinary.com/image/upload/v1590770686/training/Introduction_to_Cloudinary_s_CLI_-_Course_Slides.pdf)
 
 ### Install Python
 
@@ -120,7 +120,7 @@ cld url --open [OTIONS] PUBLIC_ID [TRANSFORMATION]
 ```
 
 ## Uploading
-[Slide 15]((https://cloudinary-res.cloudinary.com/image/upload/v1590770686/training/Introduction_to_Cloudinary_s_CLI_-_Course_Slides.pdf))
+[Slide 15](https://cloudinary-res.cloudinary.com/image/upload/v1590770686/training/Introduction_to_Cloudinary_s_CLI_-_Course_Slides.pdf)
 
 The CLI will automatically detect your image type but you can specify it.
 
@@ -285,7 +285,7 @@ cld sync --pull ~/Pictures/myimages test-images
 ---
 
 ## Managing Uploaded Content
-[Slide 27]((https://cloudinary-res.cloudinary.com/image/upload/v1590770686/training/Introduction_to_Cloudinary_s_CLI_-_Course_Slides.pdf))
+[Slide 27](https://cloudinary-res.cloudinary.com/image/upload/v1590770686/training/Introduction_to_Cloudinary_s_CLI_-_Course_Slides.pdf)
 
 Admin functions
 
@@ -379,7 +379,7 @@ cld destroy sample invalidate=true
 ---
 
 ## Transformations: Optimization
-[Slide 34]((https://cloudinary-res.cloudinary.com/image/upload/v1590770686/training/Introduction_to_Cloudinary_s_CLI_-_Course_Slides.pdf))
+[Slide 34](https://cloudinary-res.cloudinary.com/image/upload/v1590770686/training/Introduction_to_Cloudinary_s_CLI_-_Course_Slides.pdf)
 
  Transformations can be provided as comma separated lists of options as they appear in the URL or as key/value assignments.
 
@@ -422,7 +422,7 @@ res.cloudinary.com/demo/image/upload/**q_auto**/robot.jpg
 ---
 
 ## Transformation: Aesthetics
-[Slide 40]((https://cloudinary-res.cloudinary.com/image/upload/v1590770686/training/Introduction_to_Cloudinary_s_CLI_-_Course_Slides.pdf))
+[Slide 40](https://cloudinary-res.cloudinary.com/image/upload/v1590770686/training/Introduction_to_Cloudinary_s_CLI_-_Course_Slides.pdf)
 
 ### Rounding
 
@@ -536,7 +536,7 @@ You'll see a URL like this
 ---
 
 ## Presets
-[Slide 49]((https://cloudinary-res.cloudinary.com/image/upload/v1590770686/training/Introduction_to_Cloudinary_s_CLI_-_Course_Slides.pdf))
+[Slide 49](https://cloudinary-res.cloudinary.com/image/upload/v1590770686/training/Introduction_to_Cloudinary_s_CLI_-_Course_Slides.pdf)
 
 Preset are a named set of instructions to be carried out when an asset is uploaded.  It's often used to apply similar crop instructions to any asset that uses it.
 
@@ -557,7 +557,7 @@ cld upload santa.jpg upload_preset=mobile_profile_photo
 ---
 
 ## Named Transformations
-[Slide 52]((https://cloudinary-res.cloudinary.com/image/upload/v1590770686/training/Introduction_to_Cloudinary_s_CLI_-_Course_Slides.pdf))
+[Slide 52](https://cloudinary-res.cloudinary.com/image/upload/v1590770686/training/Introduction_to_Cloudinary_s_CLI_-_Course_Slides.pdf)
 
 ### Create a named transformation
 
@@ -578,7 +578,7 @@ cld url sample t_small_fill2
 ---
 
 ## Backups
-[Slide 53]((https://cloudinary-res.cloudinary.com/image/upload/v1590770686/training/Introduction_to_Cloudinary_s_CLI_-_Course_Slides.pdf))
+[Slide 53](https://cloudinary-res.cloudinary.com/image/upload/v1590770686/training/Introduction_to_Cloudinary_s_CLI_-_Course_Slides.pdf)
 
 [Enable and Configure backups](https://cloudinary.com/documentation/backups_and_version_management#enabling_automatic_backup) in the DAM. 
 
@@ -591,7 +591,7 @@ cld upload sample.jpg backup=true
 ---
 
 ## Resources
-[Slide 63]((https://cloudinary-res.cloudinary.com/image/upload/v1590770686/training/Introduction_to_Cloudinary_s_CLI_-_Course_Slides.pdf))
+[Slide 63](https://cloudinary-res.cloudinary.com/image/upload/v1590770686/training/Introduction_to_Cloudinary_s_CLI_-_Course_Slides.pdf)
 
 [Cloudinary Documentation](https://cloudinary.com/documentation) 
 

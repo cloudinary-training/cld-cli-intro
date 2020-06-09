@@ -403,7 +403,7 @@ You'll see this URL:
 This example provides the transformation as a key/value assignment.  The `f_` is a shorthand for format.
 
 ```bash
-cld url toshi.jpg fetch_format=auto
+cld url toshi.jpg f_auto
 ```
 
 You'll see this URL:
@@ -414,7 +414,7 @@ You'll see this URL:
 This example provides the transformation as a key/value assignment
 
 ```bash
-cld url robot.jpg quality=auto
+cld url robot.jpg q_auto
 ```
 You'll see this URL:
 res.cloudinary.com/demo/image/upload/**q_auto**/robot.jpg

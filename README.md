@@ -1,6 +1,6 @@
 # Cheatsheet: Introduction to Cloudinary CLI
 
-This cheatsheet is meant for students involved with the “Introduction to Cloudinary’s CLI” course. If you are not already a student, you can enroll at [training.cloudinary.com](https://training.cloudinayr.com). Each part of the cheatsheet corresponds with the [slides](https://cloudinary-res.cloudinary.com/image/upload/v1590770686/training/Introduction_to_Cloudinary_s_CLI_-_Course_Slides.pdf) used in the course. 
+This cheatsheet is meant for students involved with the “Introduction to Cloudinary’s CLI” course. If you are not already a student, you can enroll at [training.cloudinary.com](https://training.cloudinary.com). Each part of the cheatsheet corresponds with the [slides](https://cloudinary-res.cloudinary.com/image/upload/v1590770686/training/Introduction_to_Cloudinary_s_CLI_-_Course_Slides.pdf) used in the course. 
 
 ---
 

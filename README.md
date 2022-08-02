@@ -1,6 +1,6 @@
-# Cheatsheet: Introduction to Cloudinary CLI
+# Cheat Sheet: Introduction to Cloudinary CLI
 
-This cheatsheet is meant for students involved with the “Introduction to Cloudinary’s CLI” course. If you are not already a student, you can enroll at [training.cloudinary.com](https://training.cloudinary.com). Each part of the cheatsheet corresponds with the [slides](https://cloudinary-res.cloudinary.com/image/upload/v1590770686/training/Introduction_to_Cloudinary_s_CLI_-_Course_Slides.pdf) used in the course. 
+This cheat sheet is meant for students involved with the “Introduction to Cloudinary’s CLI” course. If you are not already a student, you can enroll at [training.cloudinary.com](https://training.cloudinary.com). Each part of the cheat sheet corresponds with the [slides](https://cloudinary-res.cloudinary.com/image/upload/v1590770686/training/Introduction_to_Cloudinary_s_CLI_-_Course_Slides.pdf) used in the course. 
 
 ---
 
@@ -11,7 +11,7 @@ This cheatsheet is meant for students involved with the “Introduction to Cloud
 
 - Python 3.6 or greater
 - Download: https://www.python.org/downloads/
-- Mac : brew install recommended https://installpython3.com/mac/
+- Mac : brew install recommended https://brew.sh/
 
 ### Install Cloudinary
 

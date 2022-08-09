@@ -5,13 +5,22 @@ This cheat sheet is meant for students involved with the “Introduction to Clou
 ---
 
 ## Setup Environment
-[Slide 9](https://cloudinary-res.cloudinary.com/image/upload/v1590770686/training/Introduction_to_Cloudinary_s_CLI_-_Course_Slides.pdf)
 
 ### Install Python
 
 - Python 3.6 or greater
 - Download: https://www.python.org/downloads/
 - Mac : brew install recommended https://brew.sh/
+
+#### Installing Python on Mac with brew
+
+```bash
+# install brew
+mkdir homebrew && curl -L https://github.com/Homebrew/brew/tarball/master | tar xz --strip 1 -C homebrew
+
+# install python
+brew install python
+```
 
 ### Install Cloudinary
 

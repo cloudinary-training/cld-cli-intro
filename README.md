@@ -1,4 +1,8 @@
-# Cheat Sheet: Introduction to Cloudinary CLI
+# Introduction to Cloudinary CLI
+
+Cloudinary offers a command line interface (CLI) that enables you to make API calls in your terminal. The Cloudinary CLI runs on top of the Python SDK.
+
+# Cheat Sheet:
 
 This cheat sheet is meant for students involved with the “Introduction to Cloudinary’s CLI” course. If you are not already a student, you can enroll at [training.cloudinary.com](https://training.cloudinary.com). Each part of the cheat sheet corresponds with the [slides](https://cloudinary-res.cloudinary.com/image/upload/v1590770686/training/Introduction_to_Cloudinary_s_CLI_-_Course_Slides.pdf) used in the course. 
 
@@ -12,14 +16,14 @@ This cheat sheet is meant for students involved with the “Introduction to Clou
 - Download: https://www.python.org/downloads/
 - Mac : brew install recommended https://brew.sh/
 
-#### Installing Python on Mac with brew
+#### Installing Python on Mac with Homebrew
 
 ```bash
 # install brew
 mkdir homebrew && curl -L https://github.com/Homebrew/brew/tarball/master | tar xz --strip 1 -C homebrew
 
 # install python
-brew install python
+brew install python3
 ```
 
 ### Install Cloudinary
@@ -42,9 +46,9 @@ pip3 install cloudinary-cli
 
 Navigate to:  [https://cloudinary.com/console](https://cloudinary.com/console)
 
-Sign up for free account or login to find credentials in your dashboard. 
+Sign up for free account or login.
 
-Locate your CLOUDINARY_URL (contains all three pieces of your credential) and click the clipboard to copy it into your buffer.
+Once you have a Cloudinary account, you can access your CLOUDINARY_URL in your Dashboard, as shown below. You’ll use the CLOUDINARY_URL to show shell script to authenticate and get authorization to upload. You can easily copy the CLOUDINARY_URL into your clipboard by clicking on the copy icon. You can save this in a text file until you are ready to write your shell script.
 
 ![cloudinary url](https://res.cloudinary.com/jen-brissman/image/upload/v1702021754/cld-url.png)
 
@@ -69,7 +73,7 @@ export CLOUDINARY_URL=cloudinary://API_KEY:API_SECRET@cloud_name
 cld config
     cloud_name:	cloud_name
     api_key:	API_KEY
-    api_secret:	***************CRET
+    api_secret:	***************************
 ```
 
 ### Multiple Configs

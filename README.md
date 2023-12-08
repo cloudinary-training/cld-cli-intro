@@ -42,21 +42,11 @@ pip3 install cloudinary-cli
 
 Navigate to:  [https://cloudinary.com/console](https://cloudinary.com/console)
 
-Sign up for free account or login to find credentials. 
+Sign up for free account or login to find credentials in your dashboard. 
 
-Locate your cloudname.
+Locate your CLOUDINARY_URL (contains all three pieces of your credential) and click the clipboard to copy it into your buffer.
 
-![cloud name](https://res.cloudinary.com/cloudinary-training/image/upload/v1590703923/book/get-cloud-name.png)
-
-Locate your API_KEY and API_SECRET.  Don't reveal these publicly.
-
-![key and secret](https://res.cloudinary.com/cloudinary-training/image/upload/v1590704088/book/key-secret.png)
-
-Locate the ClOUDINARY_URL and click the link to copy it into your buffer.
-
-![cloudinary url](https://res.cloudinary.com/cloudinary-training/image/upload/v1590704298/book/cld-url.png)
-
-Add the Cloudinary URL to your environment variables.
+![cloudinary url](https://res.cloudinary.com/jen-brissman/image/upload/v1702021554/cld_url.png)
 
 For Mac (bash or zsh):
 

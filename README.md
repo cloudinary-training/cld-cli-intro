@@ -44,11 +44,11 @@ pip3 install cloudinary-cli
 
 ### Setup Environment Variables
 
-Navigate to:  [https://cloudinary.com/console](https://cloudinary.com/console)
-
 Sign up for free account or login.
 
-Once you have a Cloudinary account, you can access your CLOUDINARY_URL in your Dashboard, as shown below. You’ll use the CLOUDINARY_URL to show shell script to authenticate and get authorization to upload. You can easily copy the CLOUDINARY_URL into your clipboard by clicking on the copy icon. You can save this in a text file until you are ready to write your shell script.
+Navigate to:  [https://cloudinary.com/console](https://cloudinary.com/console)
+
+Once you have a Cloudinary account, you can access your CLOUDINARY_URL/API Environment Variable in your Dashboard, as shown below. This credential is comprised of all three of your credentals combined into one line of code. You’ll use the CLOUDINARY_URL to authenticate and get authorization to upload. You can easily copy the CLOUDINARY_URL into your clipboard by clicking on the clipboard icon.
 
 ![cloudinary url](https://res.cloudinary.com/jen-brissman/image/upload/v1702021754/cld-url.png)
 
@@ -96,7 +96,7 @@ cld -C cloud_name config
 
 ---
 
-## Help
+## Helper Tools
 
 You can get usage help on any command
 

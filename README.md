@@ -119,7 +119,7 @@ cld url --open [OTIONS] PUBLIC_ID [TRANSFORMATION]
 ```
 
 ## Uploading
-[Slide 15](https://cloudinary-res.cloudinary.com/image/upload/v1590770686/training/Introduction_to_Cloudinary_s_CLI_-_Course_Slides.pdf)
+[Slide X - update with new PDF](https://cloudinary-res.cloudinary.com/image/upload/v1590770686/training/Introduction_to_Cloudinary_s_CLI_-_Course_Slides.pdf)
 
 The CLI will automatically detect your image type but you can specify it.
 

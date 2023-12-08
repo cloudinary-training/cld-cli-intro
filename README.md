@@ -46,7 +46,7 @@ Sign up for free account or login to find credentials in your dashboard.
 
 Locate your CLOUDINARY_URL (contains all three pieces of your credential) and click the clipboard to copy it into your buffer.
 
-![cloudinary url](https://res.cloudinary.com/jen-brissman/image/upload/v1702021554/cld_url.png)
+![cloudinary url](https://res.cloudinary.com/jen-brissman/image/upload/v1702021754/cld-url.png)
 
 For Mac (bash or zsh):
 

@@ -101,7 +101,18 @@ cld -C cloud_name config
 You can get usage help on any command
 
 ```bash
-cld <command> --help
+cld --help # lists available commands
+cld <command> --help #general help
+
+example:
+cld search --help 	# Search API usage
+
+cld <API> #Lists functions of that API
+
+example:
+cld admin     # Admin API functions
+cld uploader    # Upload API functions
+
 ```
 ---
 

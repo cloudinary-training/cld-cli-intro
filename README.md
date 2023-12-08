@@ -55,7 +55,7 @@ export CLOUDINARY_URL=cloudinary://API_KEY:API_SECRET@cloud_name
 ```
 
 For Windows (powershell):
-```powershell
+```bash
 set CLOUDINARY_URL=cloudinary://API_KEY:API_SECRET@cloud_name
 ```
 

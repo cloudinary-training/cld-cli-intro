@@ -11,15 +11,15 @@ If you would like to take this 50 minute [course](https://training.cloudinary.co
 The information below corresponds with the [slides](https://cloudinary-marketing-res.cloudinary.com/image/upload/v1704049241/Introduction-Cloudinary-CLI.pdf) used in [Introduction to Cloudinary's CLI](https://training.cloudinary.com/learn/course/introduction-to-cloudinarys-cli-one-hour-course/lessons/setting-up-your-environment-0820). 
 
 Course Topics:
-- Introduction: 2:42
-- Environment Setup: 3:38
-- Helper Tools: 1:36
-- Uploading: 12:07
-- Cloudinary URLs: 2:31
-- Managing Assets: 11:50
-- Sync: 3:11
-- Transformations: 10:02
-- Further Support: 1:53
+- Introduction: 2:42 minutes
+- Environment Setup: 3:38 minutes
+- Helper Tools: 1:36 minutes
+- Uploading: 12:07 minutes
+- Cloudinary URLs: 2:31 minutes
+- Managing Assets: 11:50 minutes
+- Sync: 3:11 minutes
+- Transformations: 10:02 minutes
+- Further Support: 1:53 minutes
 
 
 ---

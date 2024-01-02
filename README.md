@@ -274,7 +274,6 @@ cld url --open [OTIONS] PUBLIC_ID [TRANSFORMATION]
 
 
 ## Managing Uploaded Content
-[Slide 27](https://cloudinary-res.cloudinary.com/image/upload/v1590770686/training/Introduction_to_Cloudinary_s_CLI_-_Course_Slides.pdf)
 
 Admin functions
 
@@ -429,8 +428,6 @@ cld url robot.jpg q_auto
 You'll see this URL:
 res.cloudinary.com/demo/image/upload/**q_auto**/robot.jpg
 
-[Slide 40](https://cloudinary-res.cloudinary.com/image/upload/v1590770686/training/Introduction_to_Cloudinary_s_CLI_-_Course_Slides.pdf)
-
 ### Rounding
 
 Use `r_<value>` to create rounding similar to the CSS `border-radius`.  A value of `max` will create a circle.
@@ -542,7 +539,6 @@ You'll see a URL like this
 ---
 
 ## Presets
-[Slide 49](https://cloudinary-res.cloudinary.com/image/upload/v1590770686/training/Introduction_to_Cloudinary_s_CLI_-_Course_Slides.pdf)
 
 Preset are a named set of instructions to be carried out when an asset is uploaded.  It's often used to apply similar crop instructions to any asset that uses it.
 
@@ -563,7 +559,6 @@ cld upload santa.jpg upload_preset=mobile_profile_photo
 ---
 
 ## Named Transformations
-[Slide 52](https://cloudinary-res.cloudinary.com/image/upload/v1590770686/training/Introduction_to_Cloudinary_s_CLI_-_Course_Slides.pdf)
 
 ### Create a named transformation
 
@@ -584,7 +579,6 @@ cld url sample t_small_fill2
 ---
 
 ## Backups
-[Slide 53](https://cloudinary-res.cloudinary.com/image/upload/v1590770686/training/Introduction_to_Cloudinary_s_CLI_-_Course_Slides.pdf)
 
 [Enable and Configure backups](https://cloudinary.com/documentation/backups_and_version_management#enabling_automatic_backup) in the DAM. 
 
@@ -597,11 +591,12 @@ cld upload sample.jpg backup=true
 ---
 
 ## Resources
-[Slide 63](https://cloudinary-res.cloudinary.com/image/upload/v1590770686/training/Introduction_to_Cloudinary_s_CLI_-_Course_Slides.pdf)
 
 [Cloudinary Documentation](https://cloudinary.com/documentation) 
 
-[GitHub Respository](https://github.com/cloudinary)
+[Cloudinary Academy GitHub Respositories](https://github.com/cloudinary-training)
+
+[Cloudinary GitHub Repository](https://github.com/cloudinary)
 
 [Support Request](https://support.cloudinary.com/hc/en-us/requests/new)
 

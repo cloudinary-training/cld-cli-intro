@@ -122,15 +122,29 @@ cld uploader    # Upload API functions
 
 ## Uploading
 
-The CLI will automatically detect your image type but you can specify it.
-
 ### Upload Widget
 
-The Cloudinary Media Library (console online) uses an Upload Widget that you can add to your own HTML files. The CLI can write the code for you to copy/paste.  You can make other widgets as well like **video player**.
+The Cloudinary Media Library uses an Upload Widget that you can add to your own HTML files. The CLI can write the code for you to copy/paste. 
 
 ```bash
 cld make upload widget
 ```
+You can make other widgets as well:
+Media Library widget.
+```bash
+cld make media library widget
+```
+
+Product Gallery widget.
+```bash
+cld make product_gallery widget
+```
+
+Video Player widget.
+```bash
+cld make video_player widget
+```
+
 
 ### Uploading Files by Type
 
@@ -152,7 +166,6 @@ cld upload data.json resource_type=raw
 cld upload data.json resource_type=auto
 cld upload data.json
 ```
-
 
 Resource type can be found in the URL after the cloud name.
 

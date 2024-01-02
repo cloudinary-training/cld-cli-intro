@@ -592,6 +592,10 @@ cld upload sample.jpg backup=true
 
 ## Resources
 
+[Cloudinary Academy](training.cloudinary.com)
+
+[Intro to Cloudinary's CLI Course (Free!)](https://training.cloudinary.com/learn/course/introduction-to-cloudinarys-cli-one-hour-course/lessons/setting-up-your-environment-0820)
+
 [Cloudinary Documentation](https://cloudinary.com/documentation) 
 
 [Cloudinary Academy GitHub Respositories](https://github.com/cloudinary-training)

@@ -637,4 +637,9 @@ cld upload sample.jpg backup=true
 [Support Email support@cloudinary.com](mailto:support@cloudinary.com)
 
 
+## Asset Credits
+
+- tent.jpg - [image by Sagui Andrea at Pexels](https://www.pexels.com/photo/blue-dome-tent-near-mountain-618848/)
+
+
 

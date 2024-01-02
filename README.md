@@ -643,7 +643,7 @@ cld upload sample.jpg backup=true
 - hiker.jpg - [image from Pexels by Ali Kazal](https://www.pexels.com/photo/man-in-gray-knit-cap-and-gray-zip-up-jacket-smiling-10772325/)
 - hiking.jpg - [image from Pexels by Sagui Andrea](https://www.pexels.com/photo/blue-dome-tent-near-mountain-618848/)
 - dolomites.jpg - [photo from Pexels by Thomas Vitali](https://www.pexels.com/photo/a-rock-mountain-surrounded-by-snow-covered-ground-3039336/)
-- pnw.jpg - [image from Pexelsby PNW Production](https://www.pexels.com/photo/woman-in-white-bubble-jacket-7625303/)
+- pnw.jpg - [image from Pexels by PNW Production](https://www.pexels.com/photo/woman-in-white-bubble-jacket-7625303/)
 - coffee-with-a-view.jpg - [image from Pexels by Andy Vu](https://www.pexels.com/photo/man-in-brown-jacket-and-brown-hat-standing-on-rock-near-lake-3217911/)
 - backpack.mp4 - [video from Pexels by Mikita Yo](https://www.pexels.com/video/a-man-standing-still-on-a-cliff-edge-8644064/)
 - water-bottle.mp4 - [video from Pexels by Taryn Elliott](https://www.pexels.com/video/mountains-hiking-mountain-hiking-nature-lover-4909308/)

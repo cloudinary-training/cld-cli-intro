@@ -129,18 +129,19 @@ The Cloudinary Media Library uses an Upload Widget that you can add to your own 
 ```bash
 cld make upload widget
 ```
-You can make other widgets as well:
-Media Library widget.
+You can easily access the HTML for other widgets via the CLI as well.
+
+Media Library widget:
 ```bash
 cld make media library widget
 ```
 
-Product Gallery widget.
+Product Gallery widget:
 ```bash
 cld make product_gallery widget
 ```
 
-Video Player widget.
+Video Player widget:
 ```bash
 cld make video_player widget
 ```

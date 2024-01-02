@@ -640,6 +640,14 @@ cld upload sample.jpg backup=true
 ## Asset Credits
 
 - tent.jpg - [image by Sagui Andrea at Pexels](https://www.pexels.com/photo/blue-dome-tent-near-mountain-618848/)
-
+- hiker.jpg - [image by Ali Kazal at Pexels](https://www.pexels.com/photo/man-in-gray-knit-cap-and-gray-zip-up-jacket-smiling-10772325/)
+- hiking.jpg - [image by Sagui Andrea at Pexels](https://www.pexels.com/photo/blue-dome-tent-near-mountain-618848/)
+- backpack.mp4 - [video by Mikita Yo at Pexels](https://www.pexels.com/video/a-man-standing-still-on-a-cliff-edge-8644064/)
+- pnw.jpg - [image by PNW Production at Pexels](https://www.pexels.com/photo/woman-in-white-bubble-jacket-7625303/)
+- coffee-with-a-view.jpg - [image by Andy Vu at Pexels](https://www.pexels.com/photo/man-in-brown-jacket-and-brown-hat-standing-on-rock-near-lake-3217911/)
+- water-bottle.mp4 - [video by Taryn Elliott at Pexels](https://www.pexels.com/video/mountains-hiking-mountain-hiking-nature-lover-4909308/)
+- kids-hiking.mp4 - [video by RDNE Stock Project at Pexels](https://www.pexels.com/video/two-boys-walking-on-a-park-8083560/)
+- waterfall.mp4 - [video by Beckett Johnson at Pexels](https://www.pexels.com/video/footage-of-waterfalls-5022215/)
+- crossing.mp4 - [video by Yaroslav Shuraev at Pexels](https://www.pexels.com/video/a-couple-crossing-the-river-8968040/)
 
 

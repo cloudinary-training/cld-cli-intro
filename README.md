@@ -122,14 +122,14 @@ cld uploader    # Upload API functions
 
 ## Uploading
 
-### Upload Widget
+### Widgets
 
-The Cloudinary Media Library uses an Upload Widget that you can add to your own HTML files. The CLI can write the code for you to copy/paste. 
+You can easily access the HTML for Cloudinary widgets via the CLI, which you can then copy/paste and embed on your site.
 
+Upload Widget:
 ```bash
 cld make upload widget
 ```
-You can easily access the HTML for other widgets via the CLI as well.
 
 Media Library widget:
 ```bash

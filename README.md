@@ -4,7 +4,7 @@ Cloudinary offers a command line interface (CLI) that enables you to make API ca
 
 # Cheat Sheet:
 
-This cheat sheet is meant for students involved with the “Introduction to Cloudinary’s CLI” course. If you are not already a student, you can enroll at [training.cloudinary.com](https://training.cloudinary.com). Each part of the cheat sheet corresponds with the [slides](https://cloudinary-res.cloudinary.com/image/upload/v1590770686/training/Introduction_to_Cloudinary_s_CLI_-_Course_Slides.pdf) used in the course. 
+This cheat sheet is meant for students involved with the “Introduction to Cloudinary’s CLI” course. If you are not already a student, you can enroll at [training.cloudinary.com](https://training.cloudinary.com). Each part of the cheat sheet corresponds with the [slides](https://cloudinary-marketing-res.cloudinary.com/image/upload/v1704049241/Introduction-Cloudinary-CLI.pdf) used in the [course](https://training.cloudinary.com/learn/course/introduction-to-cloudinarys-cli-one-hour-course/lessons/setting-up-your-environment-0820). 
 
 ---
 
@@ -116,25 +116,7 @@ cld uploader    # Upload API functions
 ```
 ---
 
-## URL Helper
-
-We'll be using the URL helper to create URLs.  URLs requests are handled by Cloudinary and cached on the CDN and then a response is returned.
-
-We can create a URL string 
-
-Usage
-```bash
-cld url [OPTIONS] PUBLIC_ID [TRANSFORMATION]
-```
-
-If you want to make a request using the URL, add the `--open` option
-
-```bash
-cld url --open [OTIONS] PUBLIC_ID [TRANSFORMATION]
-```
-
 ## Uploading
-[Slide X - update with new PDF](https://cloudinary-res.cloudinary.com/image/upload/v1590770686/training/Introduction_to_Cloudinary_s_CLI_-_Course_Slides.pdf)
 
 The CLI will automatically detect your image type but you can specify it.
 
@@ -273,30 +255,23 @@ Create a URL to request an asset using the mapping to upload the asset to Cloudi
 ```open
 cld url --open remote_media/commons/b/b4/Apollo_7_Florida.jpg
 ```
+## Cloudinary URLs
 
-#### Sync
+We'll be using the URL helper to create URLs.  URL requests are handled by Cloudinary and cached on the CDN and then a response is returned.
 
-Synchronize a local directory to the cloud using `push` and `pull` command.  `push` copies the local directory up to the cloud and `pull` downloads a cloud directory to the local file system.
+We can create a URL string 
 
 Usage
-
 ```bash
-# upload
-cld sync --push <local directory> <cloud directory>
-# download
-cld sync --pull <local directory> <cloud directory>
-```
-Examples
-
-```bash
-cld sync --push ~/Pictures/images test-images
+cld url [OPTIONS] PUBLIC_ID [TRANSFORMATION]
 ```
 
+If you want to make a request using the URL, add the `--open` option
+
 ```bash
-cld sync --pull ~/Pictures/myimages test-images
+cld url --open [OTIONS] PUBLIC_ID [TRANSFORMATION]
 ```
 
----
 
 ## Managing Uploaded Content
 [Slide 27](https://cloudinary-res.cloudinary.com/image/upload/v1590770686/training/Introduction_to_Cloudinary_s_CLI_-_Course_Slides.pdf)
@@ -391,9 +366,30 @@ cld destroy sample invalidate=true
 ```
 
 ---
+#### Sync
 
-## Transformations: Optimization
-[Slide 34](https://cloudinary-res.cloudinary.com/image/upload/v1590770686/training/Introduction_to_Cloudinary_s_CLI_-_Course_Slides.pdf)
+Synchronize a local directory to the cloud using `push` and `pull` command.  `push` copies the local directory up to the cloud and `pull` downloads a cloud directory to the local file system.
+
+Usage
+
+```bash
+# upload
+cld sync --push <local directory> <cloud directory>
+# download
+cld sync --pull <local directory> <cloud directory>
+```
+Examples
+
+```bash
+cld sync --push ~/Pictures/images test-images
+```
+
+```bash
+cld sync --pull ~/Pictures/myimages test-images
+```
+
+---
+## Transformations
 
  Transformations can be provided as comma separated lists of options as they appear in the URL or as key/value assignments.
 
@@ -433,9 +429,6 @@ cld url robot.jpg q_auto
 You'll see this URL:
 res.cloudinary.com/demo/image/upload/**q_auto**/robot.jpg
 
----
-
-## Transformation: Aesthetics
 [Slide 40](https://cloudinary-res.cloudinary.com/image/upload/v1590770686/training/Introduction_to_Cloudinary_s_CLI_-_Course_Slides.pdf)
 
 ### Rounding
@@ -475,8 +468,7 @@ You'll see this URL:
 
 ### Effects and Filters
 
-
-The `e_` is a shorthand for effect.  You can see the [documentation](https://cloudinary.com/documentation/image_transformations#applying_image_effects_and_filters) on effects and filters to see all the options. 
+The `e_` is for effect.  You can see the [documentation](https://cloudinary.com/documentation/image_transformations#applying_image_effects_and_filters) on effects and filters to see all the options. 
 
 ### Outline Effect 
 
@@ -609,11 +601,7 @@ cld upload sample.jpg backup=true
 
 [Cloudinary Documentation](https://cloudinary.com/documentation) 
 
-[FaceBook](https://www.facebook.com/groups/CloudinaryCommunity/) 
-
 [GitHub Respository](https://github.com/cloudinary)
-
-[Status Page](https://status.cloudinary.com/) 
 
 [Support Request](https://support.cloudinary.com/hc/en-us/requests/new)
 

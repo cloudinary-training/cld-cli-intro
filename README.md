@@ -1,6 +1,7 @@
 # Introduction to Cloudinary's CLI
 
-Cloudinary offers a command line interface (CLI) that enables you to make API calls in your terminal. The Cloudinary CLI runs on top of the Python SDK.
+Cloudinary offers a command line interface (CLI) that enables you to make API calls directly in your terminal.
+The Cloudinary CLI runs on top of the Python SDK.
 
 # Course Outline:
 

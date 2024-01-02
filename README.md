@@ -6,7 +6,9 @@ Cloudinary offers a command line interface (CLI) that enables you to make API ca
 
 The information in this repository's README follows along the structure of the Cloudinary Academy course, [Introduction to Cloudinary's CLI](https://training.cloudinary.com/learn/course/introduction-to-cloudinarys-cli-one-hour-course/lessons/setting-up-your-environment-0820) and even includes some examples for topics we don't cover in the course. 
 
-If you would like to take this 50 minute [course](https://training.cloudinary.com/learn/course/introduction-to-cloudinarys-cli-one-hour-course/lessons/setting-up-your-environment-0820), you can enroll for free at [training.cloudinary.com](https://training.cloudinary.com). The following information corresponds with the [slides](https://cloudinary-marketing-res.cloudinary.com/image/upload/v1704049241/Introduction-Cloudinary-CLI.pdf) used in [Introduction to Cloudinary's CLI](https://training.cloudinary.com/learn/course/introduction-to-cloudinarys-cli-one-hour-course/lessons/setting-up-your-environment-0820). 
+If you would like to take this 50 minute [course](https://training.cloudinary.com/learn/course/introduction-to-cloudinarys-cli-one-hour-course/lessons/setting-up-your-environment-0820), you can enroll for free at [training.cloudinary.com](https://training.cloudinary.com).
+
+The information below corresponds with the [slides](https://cloudinary-marketing-res.cloudinary.com/image/upload/v1704049241/Introduction-Cloudinary-CLI.pdf) used in [Introduction to Cloudinary's CLI](https://training.cloudinary.com/learn/course/introduction-to-cloudinarys-cli-one-hour-course/lessons/setting-up-your-environment-0820). 
 
 ---
 

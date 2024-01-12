@@ -9,7 +9,7 @@ The information in this repository's README follows along the structure of the C
 
 If you would like to take this 50 minute course, you can enroll for free at [training.cloudinary.com](https://training.cloudinary.com).
 
-The information below corresponds with the [slides](https://cloudinary-marketing-res.cloudinary.com/image/upload/v1704049241/Introduction-Cloudinary-CLI.pdf) used in [Introduction to Cloudinary's CLI](https://training.cloudinary.com/learn/course/introduction-to-cloudinarys-cli-one-hour-course). 
+The information below corresponds with the [slides](https://cloudinary-marketing-res.cloudinary.com/image/upload/v1704049241/Introduction-Cloudinary-CLI.pdf) used in [Introduction to Cloudinary's CLI](https://training.cloudinary.com/courses/introduction-to-cloudinarys-cli-one-hour-course?courseId=e089e35e-f503-4dee-a62f-d9d3c61ea523). 
 
 Course Topics:
 - Introduction: 2:42 minutes

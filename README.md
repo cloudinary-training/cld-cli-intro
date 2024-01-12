@@ -5,7 +5,7 @@ The Cloudinary CLI runs on top of the Python SDK.
 
 # Course Outline:
 
-The information in this repository's README follows along the structure of the Cloudinary Academy course, [Introduction to Cloudinary's CLI](https://training.cloudinary.com/learn/course/introduction-to-cloudinarys-cli-one-hour-course/lessons/setting-up-your-environment-0820) and even includes some examples for topics we do not cover in the Introduction to Cloudinary's CLI Course, such as Presets, Named Transformations, Backups, and Auto-Upload mapping. 
+The information in this repository's README follows along the structure of the Cloudinary Academy course, [Introduction to Cloudinary's CLI](https://training.cloudinary.com/learn/course/introduction-to-cloudinarys-cli-xx-minute-course/before-the-lessons/what-to-expect?page=1) and even includes some examples for topics we do not cover in the Introduction to Cloudinary's CLI Course, such as Presets, Named Transformations, Backups, and Auto-Upload mapping. 
 
 If you would like to take this 50 minute course, you can enroll for free at [training.cloudinary.com](https://training.cloudinary.com).
 
